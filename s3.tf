@@ -39,3 +39,7 @@ resource "aws_s3_bucket" "nexus" {
   }
 }
 
+resource "aws_s3_account_public_access_block" "block" {
+  block_public_acls   = true
+  block_public_policy = true
+}
