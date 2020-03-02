@@ -10,8 +10,3 @@ variable "project_prefix" {
 variable "projects" {
   type = list(string)
 }
-
-variable "create_superuser" {
-  type = bool
-  default = false
-}
