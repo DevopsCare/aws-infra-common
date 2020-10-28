@@ -15,19 +15,19 @@
 */
 
 module "common_bucket_label" {
-  source  = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.16.0"
+  source  = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.19.2"
   context = module.base_label.context
   name    = "common"
 }
 
 module "infra_bucket_label" {
-  source  = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.16.0"
+  source  = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.19.2"
   context = module.base_label.context
   name    = "infra"
 }
 
 module "nexus_bucket_label" {
-  source  = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.16.0"
+  source  = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.19.2"
   context = module.base_label.context
   name    = "nexus"
 }

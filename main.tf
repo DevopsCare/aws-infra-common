@@ -15,7 +15,7 @@
 */
 
 module "base_label" {
-  source              = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.16.0"
+  source              = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.19.2"
   namespace           = var.project_rev_fqdn
   regex_replace_chars = "/[^a-zA-Z0-9-.]/"
   delimiter           = "."
